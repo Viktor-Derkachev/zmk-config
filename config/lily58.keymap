@@ -49,7 +49,7 @@
             bindings = <
 &kp F1          &kp F2         &kp F3          &kp F4         &kp F5           &kp F6                           &kp F7     &kp F8          &kp F9            &kp F10            &kp F11               &kp F12
 &kp CAPSLOCK    &trans         &kp LA(LEFT)    &kp UP_ARROW   &kp LA(RIGHT)    &trans                           &trans     &trans          &trans            &trans             &trans                &kp PAGE_UP
-&kp ENTER       &trans         &kp LEFT_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &kp BACKSPACE                    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp PAGE_DOWN
+&kp ENTER       &trans         &kp LEFT_ARROW  &kp DOWN       &kp RIGHT_ARROW  &kp BACKSPACE                    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp PAGE_DOWN
 &kp LEFT_SHIFT  &kp LC(SPACE)  &kp HOME        &kp INS        &kp END          &kp DEL        &trans    &trans  &kp MINUS  &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &mt RIGHT_SHIFT PIPE
                                                &kp LA(ENTER)  &kp LG(ENTER)    &trans         &trans    &trans  &trans     &trans          &trans
             >;
