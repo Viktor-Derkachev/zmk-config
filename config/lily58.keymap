@@ -47,11 +47,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1              &kp F2         &kp F3    &kp F4        &kp F5           &kp F6                                &kp F7     &kp F8          &kp F9            &kp F10            &kp F11               &kp F12
-&kp GRAVE           &kp N1         &kp N2    &kp N3        &kp N4           &kp N5                                &kp N6     &kp N7          &kp N8            &kp N9             &kp N0                &kp PAGE_UP
-&kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LA(RIGHT)                         &trans     &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT             &kp PAGE_DOWN
-&kp LEFT_SHIFT      &kp LC(SPACE)  &kp HOME  &kp INS       &kp END          &kp DEL        &kp ENTER    &kp CLCK  &kp MINUS  &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp RIGHT_SHIFT
-                                             &kp LCTRL     &kp LEFT_ALT     &kp LGUI       &trans       &trans    &kp RGUI   &kp RALT        &kp RCTRL
+&kp F1              &kp F2         &kp F3    &kp F4        &kp F5           &kp F6                                &kp F7     &kp F8     &kp F9            &kp F10            &kp F11        &kp F12
+&kp GRAVE           &kp N1         &kp N2    &kp N3        &kp N4           &kp N5                                &kp N6     &kp N7     &kp N8            &kp N9             &kp N0         &kp PAGE_UP
+&kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LA(RIGHT)                         &kp LEFT   &kp DOWN   &kp UP            &kp RIGHT          &trans         &kp PAGE_DOWN
+&kp LEFT_SHIFT      &kp LC(SPACE)  &kp HOME  &kp INS       &kp END          &kp DEL        &kp ENTER    &kp CLCK  &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp RIGHT_SHIFT
+                                             &kp LCTRL     &kp LEFT_ALT     &kp LGUI       &trans       &trans    &kp RGUI   &kp RALT   &kp RCTRL
             >;
         };
 
@@ -64,10 +64,10 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp C_BRI_DN    &kp C_BRI_UP  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))                    &kp C_PREVIOUS  &kp C_PAUSE  &kp C_NEXT        &kp K_MUTE         &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
-&kp LS(GRAVE)   &kp LS(N1)    &kp LS(N2)            &kp LS(N3)            &kp LS(N4)            &kp LS(N5)                        &kp LS(N6)      &kp LS(N7)   &kp LS(N8)        &kp LS(N9)         &kp LS(N0)            &kp LS(MINUS)
-&trans          &trans        &trans                &trans                &trans                &trans                            &trans          &kp LEFT     &kp DOWN          &kp UP             &kp RIGHT             &kp ENTER
-&kp LEFT_SHIFT  &trans        &trans                &trans                &trans                &trans          &trans    &trans  &kp MINUS       &kp EQUAL    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &kp RIGHT_SHIFT
+&kp C_BRI_DN    &kp C_BRI_UP  &kp LG(LS(NUMBER_2))  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))                    &kp C_PREVIOUS  &kp C_PAUSE  &kp C_NEXT        &kp K_MUTE         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp LS(GRAVE)   &kp LS(N1)    &kp LS(N2)            &kp LS(N3)            &kp LS(N4)            &kp LS(N5)                        &kp LS(N6)      &kp LS(N7)   &kp LS(N8)        &kp LS(N9)         &kp LS(N0)         &kp LS(MINUS)
+&trans          &trans        &trans                &trans                &trans                &trans                            &kp LEFT        &kp DOWN     &kp UP            &kp RIGHT          &trans             &kp ENTER
+&kp LEFT_SHIFT  &trans        &trans                &trans                &trans                &trans          &trans    &trans  &kp MINUS       &kp EQUAL    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE           &kp RIGHT_SHIFT
                                                     &kp LCTRL             &kp LEFT_ALT          &kp LEFT_GUI    &trans    &trans  &kp RGUI        &kp RALT     &kp RCTRL
             >;
         };
